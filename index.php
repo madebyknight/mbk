@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Made By Knight &bull; A Web Dev Company</title>
+        <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -10,7 +11,7 @@
         </style>
         <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALBN3r94mRU7Pjw_xwEgk_LDEaqsHk6ks&callback=initMap">
-    </script>
+        </script>
     </head>
     <body class="bkg-black flow-x">
     	<div class="container-fluid hidden-lg-up">
@@ -51,7 +52,7 @@
             <!-- Website Section-->
             <div class="container-fluid pad-sm bkg-white marg-top">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-topic="web design and web development">
                         <h2 class="upper" style="font-weight:100">Web Development</h2>
                         <br>
                         <ul class="cardlist">
@@ -63,7 +64,7 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <figure>
+                        <figure data-support-topic="website development supporting image">
                         <img src="images/web.png" class="img-fluid">
                         </figure>
                     </div>
@@ -73,11 +74,11 @@
             <div class="container-fluid pad-md bkg-white marg-top">
                 <div class="row">
                     <div class="col-md-6">
-                        <figure>
+                        <figure data-support-topic="App development supporting image">
                         <img src="images/apps.png" class="img-fluid">
                         </figure>
                     </div>
-                    <div class="col-md-6 text-right">
+                    <div class="col-md-6 text-right" data-topic="Mobile app design and mobile app development">
                         <h2 class="upper" style="font-weight:100">Mobile App Development</h2>
                         <br>
                         <ul class="cardlist">
@@ -93,7 +94,7 @@
             <!--Marketing Section-->
             <div class="container-fluid pad-md bkg-white marg-top">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-topic="digital marketing">
                         <h2 class="upper" style="font-weight:100">Digital Marketing</h2>
                         <br>
                         <ul class="cardlist">
@@ -104,7 +105,7 @@
                             <li>Weekly report</li>
                         </ul>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-support-topic="digital marketing supporting image">
                         <figure>
                         <img src="images/marketing.png" class="img-fluid">
                         </figure>
