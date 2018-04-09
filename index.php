@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <title>Made By Knight &bull; A Web Dev Company</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,7 +14,9 @@
     </head>
     <body class="bkg-black flow-x">
     	<div class="container-fluid hidden-lg-up">
+            <header role="banner">
     	<!--SMALL Navigation Bar-->
+                <nav>
             <div class="row bkg-black" style="height:5vh">
                 <div class="col" style="padding-top:0.8em">
                     <h1 class="upper txt-sz-2" style="letter-spacing: 1px; padding-top: 0.5em">
@@ -24,6 +28,7 @@
                 	Give us a call! <b><i class="fa fa-phone txt-red"></i></b> &nbsp;<span class="txt-white">929.336.0808</span>
                 </div>
             </div>
+                </nav>
             <!--Navigation border bar-->
             <div class="row bkg-white" style="height:1vh">
                 &nbsp;
@@ -40,6 +45,8 @@
                     </span>
                 </div>
             </div>
+            </header>
+        </div>
             <!--SMALL info CARDS-->
             <!-- Website Section-->
             <div class="container-fluid pad-sm bkg-white marg-top">
@@ -56,7 +63,9 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
+                        <figure>
                         <img src="images/web.png" class="img-fluid">
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -64,7 +73,9 @@
             <div class="container-fluid pad-md bkg-white marg-top">
                 <div class="row">
                     <div class="col-md-6">
+                        <figure>
                         <img src="images/apps.png" class="img-fluid">
+                        </figure>
                     </div>
                     <div class="col-md-6 text-right">
                         <h2 class="upper" style="font-weight:100">Mobile App Development</h2>
@@ -94,7 +105,9 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
+                        <figure>
                         <img src="images/marketing.png" class="img-fluid">
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -102,7 +115,9 @@
     	
     	
         <div class="container-fluid hidden-md-down">
+        <header role="banner">
             <!--Navigation Bar-->
+            <nav>
             <div class="row bkg-black" style="height:10vh">
                 <div class="col" style="padding-top:0.8em">
                     <h1 class="upper txt-sz-2" style="letter-spacing: 1px; padding-top: 0.5em">
@@ -114,6 +129,7 @@
                 	Give us a call! <b><i class="fa fa-phone txt-red"></i></b> &nbsp;<span class="txt-white">929.336.0808</span>
                 </div>
             </div>
+            </nav>
             <!--Navigation border bar-->
             <div class="row bkg-white" style="height:2vh">
                 &nbsp;
@@ -130,6 +146,7 @@
                     </span>
                 </div>
             </div>
+            </header> 
             <!-- Website Section-->
             <div class="container pad-md bkg-white marg-top">
                 <div class="row">
@@ -145,7 +162,9 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
+                        <figure>
                         <img src="images/web.png" class="img-fluid">
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -153,7 +172,9 @@
             <div class="container pad-md bkg-white marg-top">
                 <div class="row">
                     <div class="col-md-6">
+                        <figure>
                         <img src="images/apps.png" class="img-fluid">
+                        </figure>
                     </div>
                     <div class="col-md-6 text-right">
                         <h2 class="upper" style="font-weight:100">Mobile App Development</h2>
@@ -183,7 +204,9 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
+                        <figure>
                         <img src="images/marketing.png" class="img-fluid">
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -257,6 +280,7 @@
                 </div>
             </div>
             <!--Top Footer-->
+        <footer>
             <div class="container-fluid text-white op9 padtops padbtms">
                 <div class="row">
                    <div class="col-md-10 offset-md-1">
@@ -283,6 +307,7 @@
                     
                 </div>
             </div>
+    
             <!--Footer-->
             <div class="container-fluid" style="border-top: 0.1em solid white">
                 <div class="row">
@@ -291,6 +316,7 @@
                     </div>
                 </div>
             </div>
+    </footer>
         <!--JavaScript-->
 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
